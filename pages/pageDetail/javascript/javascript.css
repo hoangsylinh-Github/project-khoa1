@@ -1,0 +1,231 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+body::-webkit-scrollbar{ 
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #fafafa;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(-45deg, #5f5f64, #635e63);
+    border-radius: 50px;
+}
+
+/* #1fe3cb */
+
+.section {
+    padding: 3rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.header_title h2 {
+    font-size: 40px;
+    color: #43474A;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.header_title p {
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.header_title p::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #43474A;
+    display: block;
+    margin: 20px auto;
+}
+
+.content p{
+    margin-top: 15px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.content p:last-child{
+    margin-top: 15px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.content img{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.card_col {
+    padding: 15px;
+    position: relative;
+}
+
+.card_items {
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+    padding: 20px 30px;
+    transition: all 0.5s;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card_items h3 {
+    margin: 25px 0 20px;
+    font-size: 25px;
+}
+
+.card_items img{
+    width: 100%;
+    /* height: auto; */
+}
+
+.card_items p {
+    margin-top: 8px;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.card_items .btn_sell button{
+    padding: 10px 15px;
+    border: 0.5px solid rgb(146, 144, 144);
+    border-radius: 4px;
+    background-color: #DEDDDC;
+    transition: all 0.5s;
+}
+
+.card_items .btn_sell button:hover{
+    border-color:  rgb(255, 255, 255);
+    color: #fff;
+    background: linear-gradient(180deg, #a2b2e7 , #5a6af8 );
+}
+
+.card_items:hover {
+    background-color: #CFD9E3;
+    cursor: pointer;
+}
+
+.layout_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus_version{
+    padding: 5px 15px;
+    background-color: #F00;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-top-right-radius: 5px;
+}
+
+.plus_version span{
+    color: #fff;
+}
+
+#Detail_course h5 {
+    font-size: 1.8rem;
+    color: #43474A;
+}
+
+#Detail_course p {
+    padding: 20px 0;
+    line-height: 1.8em;
+    margin: 0px;
+}
+
+
+.modal-body p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+}
+
+.modal-body ul li{
+    list-style: none;
+    /* line-height: 40px; */
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-body ul li i{
+    font-size: 30px;
+    color: green;
+    padding-right: 20px;
+}
+
+.modal {
+    --bs-modal-width: 800px;
+}
+
+.content .btn_detail .btn_modal{
+    padding: 15px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+#Buy_course .modal-body .form_group .discount_input,
+#Buy_course_plus .modal-body .form_group .discount_input {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid rgb(129, 125, 125);
+    transition: 0.25s linear;
+}
+
+#Buy_course .modal-body .form_group,
+#Buy_course_plus .modal-body .form_group {
+    margin-bottom: 20px;
+}
+
+#Buy_course .modal-body .btn_pay button,
+#Buy_course_plus .modal-body .btn_pay button {
+    width: 100%;
+    padding: 10px 0px;
+    border: 0.5px solid rgb(146, 144, 144);
+    border-radius: 4px;
+    background-color: #DEDDDC;
+    transition: all 0.5s;
+}
+
+#Buy_course .modal-body .btn_pay button:hover,
+#Buy_course_plus .modal-body .btn_pay button:hover {
+    border-color: rgb(255, 255, 255);
+    color: #fff;
+    background: linear-gradient(180deg, #a2b2e7, #5a6af8);
+}
+
+#Buy_course .modal-body .text_course_price p,
+#Buy_course_plus .modal-body .text_course_price p
+ {
+    margin: 25px 0px;
+    font-size: 25px;
+    color: #43474a;
+}
